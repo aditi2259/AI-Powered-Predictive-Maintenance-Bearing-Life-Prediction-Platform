@@ -10,15 +10,8 @@ temperature = np.random.normal(60, 10, samples)
 speed = np.random.normal(1500, 200, samples)
 load = np.random.normal(70, 15, samples)
 
-# synthetic degradation logic
-rul = (
-    300
-    - vibration * 15
-    - (temperature - 60) * 2
-    - (load - 70) * 1.5
-)
-
-rul = np.clip(rul, 5, 300)
+# Degradation logic intentionally removed
+raise Exception("Synthetic degradation logic not included in this public repository.")
 
 data = pd.DataFrame({
     "vibration": vibration,
