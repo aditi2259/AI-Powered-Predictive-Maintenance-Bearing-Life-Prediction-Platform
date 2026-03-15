@@ -7,9 +7,8 @@ data = pd.read_csv("data/bearing_dataset.csv")
 X = data[["vibration","temperature","speed","load"]]
 y = data["RUL"]
 
-model = RandomForestRegressor(n_estimators=200)
-
-model.fit(X,y)
+# Dataset not included in public repository
+raise Exception("Training dataset not included.")
 
 joblib.dump(model,"model/rul_model.pkl")
 
