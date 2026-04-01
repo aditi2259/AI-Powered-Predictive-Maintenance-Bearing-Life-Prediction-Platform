@@ -285,16 +285,6 @@ This predictive maintenance framework can be applied in:
 
 ---
 
-# ⚠ Intellectual Property Notice
-
-Certain trained model artifacts and proprietary feature engineering techniques have been intentionally excluded.
-
-This repository is shared **for educational and demonstration purposes only**.
-
-Unauthorized commercial use is prohibited.
-
----
-
 # 📜 License
 
 This project is intended for **academic and demonstration purposes**.
